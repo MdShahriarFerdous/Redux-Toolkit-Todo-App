@@ -70,6 +70,7 @@ const ToDoItem = () => {
 								{item}
 							</h5>
 							<button
+								style={{ display: isItemChecked && "none" }}
 								className={`me-3 ${styles.editbtn}`}
 								onClick={() => {
 									updateItem(id, itemObj);
@@ -78,6 +79,17 @@ const ToDoItem = () => {
 								Edit
 								<AiOutlineEdit className={styles.editIcon} />
 							</button>
+							{isItemChecked && (
+								<p
+									style={{
+										marginRight: "8px",
+										marginTop: "14px",
+										color: "#acaaad",
+									}}
+								>
+									completed
+								</p>
+							)}
 							<button
 								onClick={() => {
 									handleItemDelete(id);
