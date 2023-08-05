@@ -4,6 +4,12 @@
 	border: 1px solid #c9b2ee;
 	border-radius: 4px;
 }
+::placeholder {
+	padding-left: 2px;
+}
+input[type="text" i] {
+	padding: 4px 16px;
+}
 .addInput:focus {
 	outline: none;
 }

@@ -30,6 +30,8 @@ const AddTodo = () => {
 				onChange={handleChange}
 				className={` ${styles.addInput}`}
 				type="text"
+				placeholder="Task Name"
+				autoComplete="off"
 			/>
 			<button
 				type="submit"
