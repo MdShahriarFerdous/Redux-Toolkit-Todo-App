@@ -1,0 +1,11 @@
+.cardClass {
+	width: 40rem;
+	border-radius: 10px;
+	padding: 24px 32px;
+	margin: auto;
+	background-color: #fffffc;
+}
+.cardClass h1 {
+	font-weight: 800;
+	color: #363636;
+}

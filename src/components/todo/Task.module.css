@@ -1,0 +1,11 @@
+.taskDiv {
+	width: 30%;
+	min-width: 150px;
+	position: relative;
+	left: 16px;
+	bottom: 0;
+	margin-top: 24px;
+}
+.taskDiv p {
+	color: rgb(87, 87, 87);
+}

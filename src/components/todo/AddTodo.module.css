@@ -1,0 +1,26 @@
+.addInput {
+	flex: 1;
+	height: 48px;
+	border: 1px solid #c9b2ee;
+	border-radius: 4px;
+}
+.addInput:focus {
+	outline: none;
+}
+.addItemDiv {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.addbtn {
+	padding: 13px 20px;
+	margin-left: 12px;
+	border: none;
+	background-color: #d14081;
+	color: white;
+	border-radius: 4px;
+	transition: background-color 0.15s;
+}
+.addbtn:hover {
+	background-color: #b91f65;
+}
